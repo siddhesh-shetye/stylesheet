@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Batch.xsl"?>
+<culture>
+	
+    <countries>
+	    <country cid="in" population="133.1" >
+			<name>India</name>
+			<continent>Asia</continent>
+		</country>
+		<country cid="fr" population="67.2" >
+			<name>France</name>
+			<continent>Europe</continent>
+		</country>
+		<country cid="ru" population="14.3" >
+			<name>Russia</name>
+			<continent>Europe</continent>
+		</country>
+		<country cid="cn" population="139.7" >
+			<name>China</name>
+			<continent>Asia</continent>
+		</country>
+		<country cid="ar" population="4.4" >
+			<name>Argentina</name>
+			<continent>South America</continent>
+		</country>
+	</countries>
+ 
+    <arts>
+		<art aid="d001">Kathakali</art>
+		<art aid="d002">Ballet</art>
+		<art aid="d003">Tango</art>
+		<art aid="d005">Polka</art>
+		<art aid="d006">Lion Dance</art>
+		<art aid="d007">Kathak</art>
+		<art aid="d008">Yangge</art>
+    </arts>	
+	
+	<performs>
+	    <perform  cid="in"  aid="d001"  />
+		<perform  cid="fr"  aid="d002"  />
+		<perform  cid="cn"  aid="d002"  />
+		<perform  cid="ar"  aid="d003"  />
+		<perform  cid="in"  aid="d007"  />
+		<perform  cid="ru"  aid="d002"  />
+		<perform  cid="cn"  aid="d006"  />
+		<perform  cid="cn"  aid="d008"  />
+	</performs>
+	
+</culture>
